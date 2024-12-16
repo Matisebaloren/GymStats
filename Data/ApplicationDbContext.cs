@@ -13,8 +13,9 @@ public class ApplicationDbContext : IdentityDbContext
     {
     }
     public DbSet<Lugar> Lugares { get; set; } = default!;
-    public DbSet<TipoEjercicio> TiposEjercicio { get; set; } = default!;
+    public DbSet<TipoEjercicio> TiposEjercicios { get; set; } = default!;
     public DbSet<Deportista> Deportistas { get; set; } = default!;
     public DbSet<Ejercicio> Ejercicios { get; set; } = default!;
+    public DbSet<Evento> Eventos { get; set; } = default!;
 }
 

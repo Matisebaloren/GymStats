@@ -8330,11 +8330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj",
+      "projectUniqueName": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj",
       "projectName": "GymStats",
-      "projectPath": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj",
+      "projectPath": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj",
       "packagesPath": "C:\\Users\\MSL2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\",
+      "outputPath": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

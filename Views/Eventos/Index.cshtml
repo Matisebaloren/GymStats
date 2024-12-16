@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="createModalLabel">Crear Nuevo Evento</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="createEventoForm">
+                    <input id="eventoID" value="0" hidden>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Descripción</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Encabezado -->
+<div class="d-flex align-items-center">
+    <h1 class="me-auto">Eventos</h1>
+
+    <button type="button" class="btn btn-danger" onclick="AbrirModal()">
+        Crear nuevo
+    </button>
+</div>
+
+<!-- Tabla -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Descripción</th>
+            <th>Met</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="tbody-eventos">
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="~/js/eventos.js"></script>
+}

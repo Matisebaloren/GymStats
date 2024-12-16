@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity;
+using System.Globalization;
+
+Thread.CurrentThread.CurrentCulture = new CultureInfo("es-AR");
 
 var builder = WebApplication.CreateBuilder(args);
 

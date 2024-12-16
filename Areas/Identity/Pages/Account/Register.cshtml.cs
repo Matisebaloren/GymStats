@@ -24,6 +24,7 @@ namespace GymStats.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {
+        private ApplicationDbContext _context;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IUserStore<IdentityUser> _userStore;
@@ -32,12 +33,14 @@ namespace GymStats.Areas.Identity.Pages.Account
         private readonly IEmailSender _emailSender;
 
         public RegisterModel(
+            ApplicationDbContext context,
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
+            _context = context;
             _userManager = userManager;
             _userStore = userStore;
             _emailStore = GetEmailStore();
@@ -107,7 +110,7 @@ namespace GymStats.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
 
-        public async Task<IActionResult> OnPostAsync(string NombreCompleto, DateTime FechaNacimiento, Genero genero, decimal Peso, decimal Altura, string returnUrl = null)
+        public async Task<IActionResult> OnPostAsync(string NombreCompleto, DateTime FechaNacimiento, Genero Genero, decimal Peso, decimal Altura, string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -122,7 +125,18 @@ namespace GymStats.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     await _userManager.AddToRoleAsync(user, "DEPORTISTA");
-
+                    
+                    var deportista = new Deportista
+                    {
+                        NombreCompleto = NombreCompleto,
+                        FechaNacimiento = FechaNacimiento,
+                        Genero = Genero,
+                        Peso = Peso,
+                        Altura = Altura,
+                        UsuarioID = user.Id
+                    };
+                    _context.Deportistas.Add(deportista);
+                    _context.SaveChanges();
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);

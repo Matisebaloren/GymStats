@@ -9,6 +9,7 @@ public class Ejercicio
     public int EjercicioID { get; set; }
     public int TipoEjercicioID { get; set; }
     public int LugarID { get; set; }
+    public int EventoID { get; set; }
     public DateTime Inicio { get; set; }
     public DateTime Fin { get; set; }
     public string? Observacion {get;set;}
@@ -16,6 +17,7 @@ public class Ejercicio
     public EstadoEmocional EmocionFinal { get; set;}
     public virtual TipoEjercicio TipoEjercicio { get; set; }
     public virtual Lugar Lugar { get; set; }
+    public virtual Evento Evento { get; set; }
 
 }
 

@@ -9,22 +9,22 @@ using GymStats.Models;
 
 namespace GymStats.Controllers
 {
-    public class DeportistaController : Controller
+    public class EjerciciosController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public DeportistaController(ApplicationDbContext context)
+        public EjerciciosController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Deportista
+        // GET: Ejercicio
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Deportistas.ToListAsync());
+            return View(await _context.Ejercicios.ToListAsync());
         }
 
-        // GET: Deportista/Details/5
+        // GET: Ejercicio/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -32,39 +32,39 @@ namespace GymStats.Controllers
                 return NotFound();
             }
 
-            var deportista = await _context.Deportistas
-                .FirstOrDefaultAsync(m => m.DeportistaID == id);
-            if (deportista == null)
+            var ejercicio = await _context.Ejercicios
+                .FirstOrDefaultAsync(m => m.EjercicioID == id);
+            if (ejercicio == null)
             {
                 return NotFound();
             }
 
-            return View(deportista);
+            return View(ejercicio);
         }
 
-        // GET: Deportista/Create
+        // GET: Ejercicio/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Deportista/Create
+        // POST: Ejercicio/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DeportistaID,UsuarioID,NombreCompleto,FechaNacimiento,Altura,Peso,Genero")] Deportista deportista)
+        public async Task<IActionResult> Create([Bind("EjercicioID,Inicio,Fin,Observacion,EmocionInicio,EmocionFinal")] Ejercicio ejercicio)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(deportista);
+                _context.Add(ejercicio);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(deportista);
+            return View(ejercicio);
         }
 
-        // GET: Deportista/Edit/5
+        // GET: Ejercicio/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -72,22 +72,22 @@ namespace GymStats.Controllers
                 return NotFound();
             }
 
-            var deportista = await _context.Deportistas.FindAsync(id);
-            if (deportista == null)
+            var ejercicio = await _context.Ejercicios.FindAsync(id);
+            if (ejercicio == null)
             {
                 return NotFound();
             }
-            return View(deportista);
+            return View(ejercicio);
         }
 
-        // POST: Deportista/Edit/5
+        // POST: Ejercicio/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("DeportistaID,UsuarioID,NombreCompleto,FechaNacimiento,Altura,Peso,Genero")] Deportista deportista)
+        public async Task<IActionResult> Edit(int id, [Bind("EjercicioID,Inicio,Fin,Observacion,EmocionInicio,EmocionFinal")] Ejercicio ejercicio)
         {
-            if (id != deportista.DeportistaID)
+            if (id != ejercicio.EjercicioID)
             {
                 return NotFound();
             }
@@ -96,12 +96,12 @@ namespace GymStats.Controllers
             {
                 try
                 {
-                    _context.Update(deportista);
+                    _context.Update(ejercicio);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!DeportistaExists(deportista.DeportistaID))
+                    if (!EjercicioExists(ejercicio.EjercicioID))
                     {
                         return NotFound();
                     }
@@ -112,10 +112,10 @@ namespace GymStats.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(deportista);
+            return View(ejercicio);
         }
 
-        // GET: Deportista/Delete/5
+        // GET: Ejercicio/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -123,34 +123,34 @@ namespace GymStats.Controllers
                 return NotFound();
             }
 
-            var deportista = await _context.Deportistas
-                .FirstOrDefaultAsync(m => m.DeportistaID == id);
-            if (deportista == null)
+            var ejercicio = await _context.Ejercicios
+                .FirstOrDefaultAsync(m => m.EjercicioID == id);
+            if (ejercicio == null)
             {
                 return NotFound();
             }
 
-            return View(deportista);
+            return View(ejercicio);
         }
 
-        // POST: Deportista/Delete/5
+        // POST: Ejercicio/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var deportista = await _context.Deportistas.FindAsync(id);
-            if (deportista != null)
+            var ejercicio = await _context.Ejercicios.FindAsync(id);
+            if (ejercicio != null)
             {
-                _context.Deportistas.Remove(deportista);
+                _context.Ejercicios.Remove(ejercicio);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool DeportistaExists(int id)
+        private bool EjercicioExists(int id)
         {
-            return _context.Deportistas.Any(e => e.DeportistaID == id);
+            return _context.Ejercicios.Any(e => e.EjercicioID == id);
         }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GymStats.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241213204747_modelsUpdate_1.0.0")]
+    partial class modelsUpdate_100
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -66,9 +69,6 @@ namespace GymStats.Migrations
                     b.Property<int>("EmocionInicio")
                         .HasColumnType("int");
 
-                    b.Property<int>("EventoID")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Fin")
                         .HasColumnType("datetime2");
 
@@ -86,29 +86,11 @@ namespace GymStats.Migrations
 
                     b.HasKey("EjercicioID");
 
-                    b.HasIndex("EventoID");
-
                     b.HasIndex("LugarID");
 
                     b.HasIndex("TipoEjercicioID");
 
                     b.ToTable("Ejercicios");
-                });
-
-            modelBuilder.Entity("GymStats.Models.Evento", b =>
-                {
-                    b.Property<int>("EventoID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EventoID"));
-
-                    b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("EventoID");
-
-                    b.ToTable("Eventos");
                 });
 
             modelBuilder.Entity("GymStats.Models.Lugar", b =>
@@ -353,12 +335,6 @@ namespace GymStats.Migrations
 
             modelBuilder.Entity("GymStats.Models.Ejercicio", b =>
                 {
-                    b.HasOne("GymStats.Models.Evento", "Evento")
-                        .WithMany("Ejercicios")
-                        .HasForeignKey("EventoID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("GymStats.Models.Lugar", "Lugar")
                         .WithMany("Ejercicios")
                         .HasForeignKey("LugarID")
@@ -370,8 +346,6 @@ namespace GymStats.Migrations
                         .HasForeignKey("TipoEjercicioID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Evento");
 
                     b.Navigation("Lugar");
 
@@ -427,11 +401,6 @@ namespace GymStats.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("GymStats.Models.Evento", b =>
-                {
-                    b.Navigation("Ejercicios");
                 });
 
             modelBuilder.Entity("GymStats.Models.Lugar", b =>

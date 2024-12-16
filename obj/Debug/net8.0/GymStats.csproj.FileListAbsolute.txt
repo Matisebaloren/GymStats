@@ -293,3 +293,4 @@ C:\Users\MSL2\Desktop\.net\GymStats\obj\Debug\net8.0\refint\GymStats.dll
 C:\Users\MSL2\Desktop\.net\GymStats\obj\Debug\net8.0\GymStats.pdb
 C:\Users\MSL2\Desktop\.net\GymStats\obj\Debug\net8.0\GymStats.genruntimeconfig.cache
 C:\Users\MSL2\Desktop\.net\GymStats\obj\Debug\net8.0\ref\GymStats.dll
+C:\Users\MSL2\Desktop\.net\GymStats\obj\Debug\net8.0\GymStats.sourcelink.json
