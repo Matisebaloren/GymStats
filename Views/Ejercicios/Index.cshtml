@@ -1,59 +1,82 @@
-@model IEnumerable<GymStats.Models.Ejercicio>
-
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Ejercicios";
 }
 
-<h1>Index</h1>
+<!-- Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="createModalLabel">Añadir Ejercicio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="createEjercicioForm">
+                    <input id="ejercicioID" value="0" hidden>
+                    <div class="mb-3">
+                        <label for="tipoEjercicioID" class="form-label">Tipo de Ejercicio <span class="text-danger">*</span></label>
+                        <select name="tipoEjercicioID" id="tipoEjercicioID" class="form-select" required> </select>
+                        <p class="text-danger" id="selectAlertTipo"></p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="lugarID" class="form-label">Lugar <span class="text-danger">*</span></label>
+                        <select name="lugarID" id="lugarID" value="0" class="form-select" required> </select>
+                        <p class="text-danger" id="selectAlertLugar"></p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="eventoID" class="form-label">Evento <span class="text-danger">*</span></label>
+                        <select name="eventoID" id="eventoID" value="0" class="form-select" required> </select>
+                        <p class="text-danger" id="selectAlertEvento"></p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inicio" class="form-label">Inicio <span class="text-danger">*</span></label>
+                        <input type="datetime-local" class="form-control" id="inicio" name="inicio">
+                        <p class="text-danger" id="alertInicio"></p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="fin" class="form-label">Fin <span class="text-danger">*</span></label>
+                        <input type="datetime-local" class="form-control" id="fin" name="fin">
+                        <p class="text-danger" id="alertFin"></p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="observacion" class="form-label">Observación</label>
+                        <input type="text" class="form-control" id="observacion" name="observacion">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<!-- Encabezado -->
+<div class="d-flex align-items-center">
+    <h1 class="me-auto">Ejercicios Fisicos</h1>
+
+    <button type="button" class="btn btn-danger" onclick="AbrirModal()">
+        Añadir Ejercicio
+    </button>
+</div>
+
+<!-- Tabla -->
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Inicio)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fin)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Observacion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EmocionInicio)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EmocionFinal)
-            </th>
+            <th>Tipo</th>
+            <th>Lugar</th>
+            <th>Evento</th>
+            <th>Inicio</th>
+            <th>Fin</th>
+            <th>Observación</th>
+            <th></th>
             <th></th>
         </tr>
     </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Inicio)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Fin)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Observacion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EmocionInicio)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EmocionFinal)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.EjercicioID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.EjercicioID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.EjercicioID">Delete</a>
-            </td>
-        </tr>
-}
+    <tbody id="tbody-ejercicios">
     </tbody>
 </table>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="~/js/ejercicios.js"></script>
+}

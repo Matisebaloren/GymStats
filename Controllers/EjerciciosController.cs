@@ -6,151 +6,184 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GymStats.Models;
+using System.Globalization;
+using Microsoft.AspNetCore.Identity;
 
 namespace GymStats.Controllers
 {
     public class EjerciciosController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public EjerciciosController(ApplicationDbContext context)
+        public EjerciciosController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        // GET: Ejercicio
+        // GET: Ejercicios
         public async Task<IActionResult> Index()
-        {
-            return View(await _context.Ejercicios.ToListAsync());
-        }
-
-        // GET: Ejercicio/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var ejercicio = await _context.Ejercicios
-                .FirstOrDefaultAsync(m => m.EjercicioID == id);
-            if (ejercicio == null)
-            {
-                return NotFound();
-            }
-
-            return View(ejercicio);
-        }
-
-        // GET: Ejercicio/Create
-        public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Ejercicio/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EjercicioID,Inicio,Fin,Observacion,EmocionInicio,EmocionFinal")] Ejercicio ejercicio)
+        public JsonResult ListadoEjercicios(int? id)
         {
-            if (ModelState.IsValid)
+            var usuarioID = _userManager.GetUserId(HttpContext.User);
+            if (usuarioID == null)
             {
-                _context.Add(ejercicio);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Json("Usuario no autenticado.");
             }
-            return View(ejercicio);
+            var deportista = _context.Deportistas.Where(d => d.UsuarioID == usuarioID).FirstOrDefault();
+
+            if (deportista == null)
+            {
+                return Json("Usuario no autenticado.");
+            }
+
+
+            var ejercicios = _context.Ejercicios.Where(l => l.DeportistaID == deportista.DeportistaID).Include(e => e.TipoEjercicio).Include(e => e.Evento).Include(e => e.Lugar).ToList();
+
+            if (id != null)
+            {
+                ejercicios = ejercicios.Where(t => t.EjercicioID == id).ToList();
+            }
+
+            var varGenero = 1.0m;
+            if (deportista.Genero == Genero.Femenino)
+            {
+                varGenero = 0.9m;
+            }
+
+            var ejercicioMostrar = ejercicios
+            .Select(e => new VistaEjercicio
+            {
+                EjercicioID = e.EjercicioID,
+                TipoEjercicioID = e.TipoEjercicioID,
+                TipoEjercicioNombre = e.TipoEjercicio.Nombre,
+                LugarID = e.LugarID,
+                LugarNombre = e.Lugar.Nombre,
+                EventoID = e.EventoID,
+                EventoNombre = e.Evento.Nombre,
+                Inicio = e.Inicio,
+                InicioString = e.Inicio.ToString("dd/MM/yyyy HH:mm"),
+                Fin = e.Fin,
+                FinString = e.Fin.ToString("dd/MM/yyyy HH:mm"),
+                IntervaloEjercicio = e.IntervaloEjercicio,
+                Observacion = e.Observacion,
+                //    EmocionFin = e.EstadoEmocionalFin,
+                //    EmocionFinString = e.EstadoEmocionalFin.ToString().ToUpper(),
+                //    EmocionInicio = e.EstadoEmocionalInicio,
+                //    EmocionInicioString = e.EstadoEmocionalInicio.ToString().ToUpper(),
+                CaloriasQuemadas = decimal.Round(e.TipoEjercicio.Met * deportista.Peso * Convert.ToDecimal(e.IntervaloEjercicio.TotalHours) * varGenero, 2)
+            })
+            .ToList();
+
+            return Json(ejercicioMostrar);
         }
 
-        // GET: Ejercicio/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public JsonResult Formulario(int? id)
         {
-            if (id == null)
+            var usuarioID = _userManager.GetUserId(HttpContext.User);
+            if (usuarioID == null)
             {
-                return NotFound();
+                return Json("Usuario no autenticado.");
             }
 
-            var ejercicio = await _context.Ejercicios.FindAsync(id);
-            if (ejercicio == null)
+            var lugares = _context.Lugares.Where(l => l.UsuarioID == usuarioID).ToList();
+            var eventos = _context.Eventos.ToList();
+            var tiposEjercicios = _context.TiposEjercicios.ToList();
+
+            // JSON
+            var data = new
             {
-                return NotFound();
-            }
-            return View(ejercicio);
+                lugares = lugares,
+                eventos = eventos,
+                tiposEjercicios = tiposEjercicios
+            };
+
+            return Json(data);
         }
 
-        // POST: Ejercicio/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("EjercicioID,Inicio,Fin,Observacion,EmocionInicio,EmocionFinal")] Ejercicio ejercicio)
+
+        public JsonResult Guardar(int ejercicioID, int tipoEjercicioID, int lugarID, int eventoID, string observacion, string inicio, string fin)
         {
-            if (id != ejercicio.EjercicioID)
+            string resultado = "";
+            var usuarioID = _userManager.GetUserId(HttpContext.User);
+
+            if (usuarioID == null)
             {
-                return NotFound();
+                return Json("Usuario no autenticado.");
+            }
+            var deportista = _context.Deportistas.Where(d => d.UsuarioID == usuarioID).FirstOrDefault();
+            if (deportista == null)
+            {
+                return Json("Deportista no autenticado.");
             }
 
-            if (ModelState.IsValid)
+            DateTime datetime_inicio;
+            DateTime datetime_fin;
+
+            if (!DateTime.TryParse(inicio, out datetime_inicio) || !DateTime.TryParse(fin, out datetime_fin))
             {
-                try
+                return Json("Formato de fecha/hora inválido.");
+            }
+
+            // Verificar si las fechas tienen sentido
+            if (datetime_inicio >= datetime_fin)
+            {
+                return Json("La fecha de inicio debe ser anterior a la fecha de fin.");
+            }
+
+
+
+            if (new int?[] { eventoID, tipoEjercicioID, lugarID }.All(x => x != null && x != 0))
+            {
+                if (ejercicioID == 0)
                 {
-                    _context.Update(ejercicio);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!EjercicioExists(ejercicio.EjercicioID))
+                    var ejercicio = new Ejercicio
                     {
-                        return NotFound();
+                        TipoEjercicioID = tipoEjercicioID,
+                        EventoID = eventoID,
+                        LugarID = lugarID,
+                        Inicio = datetime_inicio,
+                        Fin = datetime_fin,
+                        Observacion = observacion,
+                        DeportistaID = deportista.DeportistaID
+                    };
+                    _context.Add(ejercicio);
+                    _context.SaveChanges();
+
+                }
+                else
+                {
+                    //EDITAR
+                    var ejercicioEditar = _context.Ejercicios.Where(t => t.EjercicioID == ejercicioID && t.DeportistaID == deportista.DeportistaID).SingleOrDefault();
+                    if (ejercicioEditar != null)
+                    {
+                        ejercicioEditar.TipoEjercicioID = tipoEjercicioID;
+                        ejercicioEditar.EventoID = eventoID;
+                        ejercicioEditar.LugarID = lugarID;
+                        ejercicioEditar.Inicio = datetime_inicio;
+                        ejercicioEditar.Fin = datetime_fin;
+                        ejercicioEditar.Observacion = observacion;
+                        _context.SaveChanges();
                     }
                     else
                     {
-                        throw;
+                        resultado = "NO HAY AUTORIZACIÓN PARA MODIFICAR ESE REGISTRO.";
                     }
                 }
-                return RedirectToAction(nameof(Index));
             }
-            return View(ejercicio);
-        }
-
-        // GET: Ejercicio/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
+            else
             {
-                return NotFound();
+                resultado = "FALTANTE DE DATOS";
             }
 
-            var ejercicio = await _context.Ejercicios
-                .FirstOrDefaultAsync(m => m.EjercicioID == id);
-            if (ejercicio == null)
-            {
-                return NotFound();
-            }
-
-            return View(ejercicio);
+            return Json(resultado);
         }
 
-        // POST: Ejercicio/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var ejercicio = await _context.Ejercicios.FindAsync(id);
-            if (ejercicio != null)
-            {
-                _context.Ejercicios.Remove(ejercicio);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool EjercicioExists(int id)
-        {
-            return _context.Ejercicios.Any(e => e.EjercicioID == id);
-        }
+        
     }
 }

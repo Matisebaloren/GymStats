@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj": {}
+    "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj": {}
   },
   "projects": {
-    "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj": {
+    "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj",
+        "projectUniqueName": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj",
         "projectName": "GymStats",
-        "projectPath": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj",
+        "projectPath": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\GymStats.csproj",
         "packagesPath": "C:\\Users\\MSL2\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\",
+        "outputPath": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

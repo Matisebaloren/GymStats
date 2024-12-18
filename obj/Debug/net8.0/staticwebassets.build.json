@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2D+abWahDlye6c+Ik/ix3Nsx7WYAi7qMHjT99IwRCv0=",
+  "Hash": "euZ55WZ79UkOH8J083XmN6BGxN8EUQmzvsCjL4ofWzw=",
   "Source": "GymStats",
   "BasePath": "_content/GymStats",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "GymStats\\wwwroot",
       "Source": "GymStats",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "Pattern": "**"
     }
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "C:\\Users\\MSL2\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymStats.styles.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymStats.styles.css",
       "SourceId": "GymStats",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "GymStats#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "b+I0oHNqLboRNvB8FcmiLAigQ1rWtFUet7SpRFMDQa4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymStats.styles.css"
+      "OriginalItemSpec": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymStats.styles.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css",
       "SourceId": "GymStats",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "GymStats#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1316,13 +1316,13 @@
       "Integrity": "b+I0oHNqLboRNvB8FcmiLAigQ1rWtFUet7SpRFMDQa4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "css/navbar#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\site.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\sweetaler2.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\sweetaler2.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "css/sweetaler2.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\css\\sweetaler2.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\favicon.ico",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "img/heart-pulse#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1424,10 +1424,31 @@
       "OriginalItemSpec": "wwwroot\\img\\heart-pulse.svg"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\ejercicios.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "js/ejercicios#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ecva04umw4",
+      "Integrity": "Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ejercicios.js"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "js/eventos#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1438,17 +1459,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rf6cejir6y",
-      "Integrity": "aXqo/wpCEkauEctgyprdqsPbQ8JncNrnkhFnInSUFds=",
+      "Fingerprint": "6owta6xn0c",
+      "Integrity": "pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\eventos.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "js/lugares#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1466,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lugares.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\navbar.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\navbar.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "js/navbar#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1487,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\js\\navbar.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\site.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1508,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\sweetalert2.min.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\sweetalert2.min.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "js/sweetalert2.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1529,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sweetalert2.min.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\tipoEjercicios.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\tipoEjercicios.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "js/tipoEjercicios#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1550,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\js\\tipoEjercicios.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1571,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1592,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1613,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1634,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1655,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1676,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1697,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1718,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1739,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1760,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1781,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1802,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1823,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1844,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1865,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1886,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1907,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1928,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1949,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1970,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1991,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2012,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2033,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2054,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2075,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2096,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2117,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2138,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2159,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2180,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2201,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2222,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2243,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2264,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2285,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2306,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2327,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2348,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2369,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2390,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2411,10 +2432,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2432,10 +2453,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2453,10 +2474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2474,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -2495,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2516,10 +2537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2537,10 +2558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2558,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2579,10 +2600,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2600,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2621,10 +2642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2642,10 +2663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2663,10 +2684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2684,10 +2705,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2705,10 +2726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2726,10 +2747,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
       "BasePath": "_content/GymStats",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2750,7 +2771,7 @@
   "Endpoints": [
     {
       "Route": "css/navbar.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2787,7 +2808,7 @@
     },
     {
       "Route": "css/navbar.zcuksfsoyq.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2832,7 +2853,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2869,7 +2890,7 @@
     },
     {
       "Route": "css/site.jkkcgvce7d.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2914,7 +2935,7 @@
     },
     {
       "Route": "css/sweetaler2.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\sweetaler2.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\sweetaler2.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2951,7 +2972,7 @@
     },
     {
       "Route": "css/sweetaler2.min.fdqx0t3u8h.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\sweetaler2.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\sweetaler2.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2996,7 +3017,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3041,7 +3062,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3078,7 +3099,7 @@
     },
     {
       "Route": "GymStats.bundle.scp.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3115,7 +3136,7 @@
     },
     {
       "Route": "GymStats.styles.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymStats.styles.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymStats.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3152,7 +3173,7 @@
     },
     {
       "Route": "GymStats.vcu7xrkwtw.bundle.scp.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3197,7 +3218,7 @@
     },
     {
       "Route": "GymStats.vcu7xrkwtw.styles.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymStats.styles.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymStats.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5462,7 +5483,7 @@
     },
     {
       "Route": "img/heart-pulse.g9b7dwrvs4.svg",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5507,7 +5528,7 @@
     },
     {
       "Route": "img/heart-pulse.svg",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5543,8 +5564,8 @@
       ]
     },
     {
-      "Route": "js/eventos.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
+      "Route": "js/ejercicios.ecva04umw4.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\ejercicios.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5553,7 +5574,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2923"
+          "Value": "8023"
         },
         {
           "Name": "Content-Type",
@@ -5561,48 +5582,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aXqo/wpCEkauEctgyprdqsPbQ8JncNrnkhFnInSUFds=\""
+          "Value": "\"Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 15:25:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aXqo/wpCEkauEctgyprdqsPbQ8JncNrnkhFnInSUFds="
-        }
-      ]
-    },
-    {
-      "Route": "js/eventos.rf6cejir6y.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2923"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aXqo/wpCEkauEctgyprdqsPbQ8JncNrnkhFnInSUFds=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 15:25:20 GMT"
+          "Value": "Wed, 18 Dec 2024 01:57:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5612,7 +5596,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rf6cejir6y"
+          "Value": "ecva04umw4"
+        },
+        {
+          "Name": "label",
+          "Value": "js/ejercicios.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc="
+        }
+      ]
+    },
+    {
+      "Route": "js/ejercicios.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\ejercicios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 01:57:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc="
+        }
+      ]
+    },
+    {
+      "Route": "js/eventos.6owta6xn0c.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 17:20:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6owta6xn0c"
         },
         {
           "Name": "label",
@@ -5620,13 +5686,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aXqo/wpCEkauEctgyprdqsPbQ8JncNrnkhFnInSUFds="
+          "Value": "sha256-pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk="
+        }
+      ]
+    },
+    {
+      "Route": "js/eventos.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 17:20:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk="
         }
       ]
     },
     {
       "Route": "js/lugares.e26md3fpfq.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5671,7 +5774,7 @@
     },
     {
       "Route": "js/lugares.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5708,7 +5811,7 @@
     },
     {
       "Route": "js/navbar.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\navbar.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\navbar.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5745,7 +5848,7 @@
     },
     {
       "Route": "js/navbar.vbj6js6wc1.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\navbar.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\navbar.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5790,7 +5893,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5827,7 +5930,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5872,7 +5975,7 @@
     },
     {
       "Route": "js/sweetalert2.min.f35df8on9o.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\sweetalert2.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\sweetalert2.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5917,7 +6020,7 @@
     },
     {
       "Route": "js/sweetalert2.min.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\sweetalert2.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\sweetalert2.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5954,7 +6057,7 @@
     },
     {
       "Route": "js/tipoEjercicios.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\tipoEjercicios.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\tipoEjercicios.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5991,7 +6094,7 @@
     },
     {
       "Route": "js/tipoEjercicios.vinh7bp7zt.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\tipoEjercicios.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\tipoEjercicios.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6036,7 +6139,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6081,7 +6184,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6118,7 +6221,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6155,7 +6258,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6200,7 +6303,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6237,7 +6340,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6282,7 +6385,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6319,7 +6422,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6364,7 +6467,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6401,7 +6504,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6446,7 +6549,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6483,7 +6586,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6520,7 +6623,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6557,7 +6660,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6602,7 +6705,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6647,7 +6750,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6692,7 +6795,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6737,7 +6840,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6774,7 +6877,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6819,7 +6922,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6856,7 +6959,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6893,7 +6996,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6930,7 +7033,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6975,7 +7078,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7020,7 +7123,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7065,7 +7168,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7102,7 +7205,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7147,7 +7250,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7184,7 +7287,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7221,7 +7324,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7258,7 +7361,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7303,7 +7406,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7348,7 +7451,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7385,7 +7488,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7430,7 +7533,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7467,7 +7570,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7512,7 +7615,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7549,7 +7652,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7586,7 +7689,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7631,7 +7734,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7676,7 +7779,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7713,7 +7816,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7758,7 +7861,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7795,7 +7898,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7832,7 +7935,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7877,7 +7980,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7914,7 +8017,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7959,7 +8062,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8004,7 +8107,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8041,7 +8144,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8086,7 +8189,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8123,7 +8226,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8168,7 +8271,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8205,7 +8308,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8250,7 +8353,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8287,7 +8390,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8332,7 +8435,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8369,7 +8472,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8414,7 +8517,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8451,7 +8554,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8496,7 +8599,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8533,7 +8636,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8578,7 +8681,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8615,7 +8718,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8660,7 +8763,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8697,7 +8800,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8742,7 +8845,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8779,7 +8882,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8824,7 +8927,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8869,7 +8972,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8906,7 +9009,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8951,7 +9054,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8988,7 +9091,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9025,7 +9128,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9070,7 +9173,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9107,7 +9210,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9152,7 +9255,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9189,7 +9292,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9226,7 +9329,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9271,7 +9374,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9316,7 +9419,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9353,7 +9456,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9398,7 +9501,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9435,7 +9538,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9472,7 +9575,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9509,7 +9612,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9554,7 +9657,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9599,7 +9702,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9644,7 +9747,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9681,7 +9784,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9726,7 +9829,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9771,7 +9874,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9808,7 +9911,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9853,7 +9956,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9890,7 +9993,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9935,7 +10038,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9972,7 +10075,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10017,7 +10120,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10054,7 +10157,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10099,7 +10202,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10136,7 +10239,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10173,7 +10276,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10218,7 +10321,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10255,7 +10358,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10300,7 +10403,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10337,7 +10440,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10382,7 +10485,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10427,7 +10530,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10464,7 +10567,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10509,7 +10612,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10554,7 +10657,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10591,7 +10694,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10628,7 +10731,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10673,7 +10776,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "c:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {

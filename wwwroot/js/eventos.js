@@ -7,7 +7,7 @@ function ListadoEventos() {
         dataType: 'json',
         success: function (eventos) {
             
-            $("#tbody-vs").empty();
+            $("#tbody-eventos").empty();
             let contenidoTabla = ``;
 
             $.each(eventos, function (index, evento) {
@@ -28,7 +28,7 @@ function ListadoEventos() {
              `;
             });
 
-            $("#tbody-tipoEjercicios").html(contenidoTabla);
+            $("#tbody-eventos").html(contenidoTabla);
         },
         error: function (xhr, status) {
             console.log('Disculpe, existió un problema al cargar el listado');

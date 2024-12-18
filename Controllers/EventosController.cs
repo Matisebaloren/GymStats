@@ -19,13 +19,13 @@ namespace GymStats.Controllers
             _context = context;
         }
 
-        // GET: TipoEjercicio
+        // GET: Evento
         public async Task<IActionResult> Index()
         {
             return View();
         }
 
-        public JsonResult ListadoTipoEjercicios(int? id)
+        public JsonResult ListadoEventos(int? id)
         {
             var Eventos = _context.Eventos.ToList();
 
@@ -48,11 +48,11 @@ namespace GymStats.Controllers
 
                 if (eventoID == 0)
                 {
-                    var existeTipoEjercicio = _context.Eventos.Where(t => t.Nombre == nombre).Count();
-                    if (existeTipoEjercicio == 0)
+                    var existeEvento = _context.Eventos.Where(t => t.Nombre == nombre).Count();
+                    if (existeEvento == 0)
                     {
                         // GUARDAR EL EVENTO
-                        var evento = new TipoEjercicio
+                        var evento = new Evento
                         {
                             Nombre = nombre,
                         };
@@ -71,8 +71,8 @@ namespace GymStats.Controllers
                     if (eventoEditar != null)
                     {
                         //BUSCAMOS EN LA TABLA SI EXISTE UN REGISTRO CON EL MISMO NOMBRE PERO QUE EL ID SEA DISTINTO AL QUE ESTAMOS EDITANDO
-                        var existeTipoEjercicio = _context.Eventos.Where(t => t.Nombre == nombre && t.EventoID != eventoID).Count();
-                        if (existeTipoEjercicio == 0)
+                        var existeEvento = _context.Eventos.Where(t => t.Nombre == nombre && t.EventoID != eventoID).Count();
+                        if (existeEvento == 0)
                         {
                             //QUIERE DECIR QUE EL ELEMENTO EXISTE Y ES CORRECTO ENTONCES CONTINUAMOS CON EL EDITAR
                             eventoEditar.Nombre = nombre;

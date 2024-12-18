@@ -1,8 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
+<!-- Encabezado -->
+<div class="d-flex text-center">
+    <h1 class="mx-auto">Ejercicios Fisicos</h1>
+</div>
 
 <div class="text-center">
     <h1 class="display-4">Bienvenido</h1>
-    <p>hola soy un PARRAFO</p>
-    </div>
+    <div style="width: 800px;"><canvas id="grafico"></canvas></div>
+</div>
+
+@section Scripts {
+    <script src="~/js/graficoInicio.js"></script>
+}
