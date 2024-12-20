@@ -1,0 +1,13 @@
+th{
+    width: min-content;
+}
+
+td{
+    width: 1px;
+    border-width: 1px;
+}
+
+.vertical-text {
+    align-content: center;
+    font-weight: bold;
+}

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\GymStats.vcu7xrkwtw.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\informe.css",
+      "PackagePath": "staticwebassets\\css\\informe.css"
+    },
+    {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
       "PackagePath": "staticwebassets\\css\\navbar.css"
     },
@@ -31,6 +35,26 @@
     {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
       "PackagePath": "staticwebassets\\js\\eventos.js"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\graficoInicio.js",
+      "PackagePath": "staticwebassets\\js\\graficoInicio.js"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\informe.js",
+      "PackagePath": "staticwebassets\\js\\informe.js"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.debug.js",
+      "PackagePath": "staticwebassets\\js\\jspdf\\jspdf.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.min.js",
+      "PackagePath": "staticwebassets\\js\\jspdf\\jspdf.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js",
+      "PackagePath": "staticwebassets\\js\\jspdf\\jspdf.plugin.autotable.js"
     },
     {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",

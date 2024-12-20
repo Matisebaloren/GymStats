@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "euZ55WZ79UkOH8J083XmN6BGxN8EUQmzvsCjL4ofWzw=",
+  "Hash": "8oTeJzg0BI0HXQzTaARi1cG0Gzg9nANgmNFWEh1VWC4=",
   "Source": "GymStats",
   "BasePath": "_content/GymStats",
   "Mode": "Default",
@@ -1319,6 +1319,27 @@
       "OriginalItemSpec": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\informe.css",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "css/informe#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ig7fo4elak",
+      "Integrity": "gpskyUluclVomKB+p732i42Zmlft0BEMlb1FXUuEtiA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\informe.css"
+    },
+    {
       "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
@@ -1464,6 +1485,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\eventos.js"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\graficoInicio.js",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "js/graficoInicio#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mf86bi3l3z",
+      "Integrity": "MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\graficoInicio.js"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\informe.js",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "js/informe#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f4i6lwxp4w",
+      "Integrity": "P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\informe.js"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.debug.js",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "js/jspdf/jspdf.debug#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzivge1svz",
+      "Integrity": "6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jspdf\\jspdf.debug.js"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.min.js",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "js/jspdf/jspdf.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "58boku7wdv",
+      "Integrity": "1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jspdf\\jspdf.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "js/jspdf/jspdf.plugin.autotable#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0pbb04hv99",
+      "Integrity": "9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js"
     },
     {
       "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
@@ -2769,6 +2895,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/informe.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\informe.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gpskyUluclVomKB+p732i42Zmlft0BEMlb1FXUuEtiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 19:21:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gpskyUluclVomKB+p732i42Zmlft0BEMlb1FXUuEtiA="
+        }
+      ]
+    },
+    {
+      "Route": "css/informe.ig7fo4elak.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\informe.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gpskyUluclVomKB+p732i42Zmlft0BEMlb1FXUuEtiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 19:21:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ig7fo4elak"
+        },
+        {
+          "Name": "label",
+          "Value": "css/informe.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gpskyUluclVomKB+p732i42Zmlft0BEMlb1FXUuEtiA="
+        }
+      ]
+    },
     {
       "Route": "css/navbar.css",
       "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
@@ -5586,7 +5794,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 01:57:29 GMT"
+          "Value": "Wed, 18 Dec 2024 14:30:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5631,7 +5839,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 01:57:29 GMT"
+          "Value": "Wed, 18 Dec 2024 14:30:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5724,6 +5932,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk="
+        }
+      ]
+    },
+    {
+      "Route": "js/graficoInicio.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\graficoInicio.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6737"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 17:28:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE="
+        }
+      ]
+    },
+    {
+      "Route": "js/graficoInicio.mf86bi3l3z.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\graficoInicio.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6737"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 17:28:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mf86bi3l3z"
+        },
+        {
+          "Name": "label",
+          "Value": "js/graficoInicio.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE="
+        }
+      ]
+    },
+    {
+      "Route": "js/informe.f4i6lwxp4w.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\informe.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 05:41:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f4i6lwxp4w"
+        },
+        {
+          "Name": "label",
+          "Value": "js/informe.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE="
+        }
+      ]
+    },
+    {
+      "Route": "js/informe.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\informe.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 05:41:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE="
+        }
+      ]
+    },
+    {
+      "Route": "js/jspdf/jspdf.debug.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.debug.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0="
+        }
+      ]
+    },
+    {
+      "Route": "js/jspdf/jspdf.debug.uzivge1svz.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.debug.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzivge1svz"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jspdf/jspdf.debug.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0="
+        }
+      ]
+    },
+    {
+      "Route": "js/jspdf/jspdf.min.58boku7wdv.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "58boku7wdv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jspdf/jspdf.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc="
+        }
+      ]
+    },
+    {
+      "Route": "js/jspdf/jspdf.min.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc="
+        }
+      ]
+    },
+    {
+      "Route": "js/jspdf/jspdf.plugin.autotable.0pbb04hv99.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0pbb04hv99"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jspdf/jspdf.plugin.autotable.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg="
+        }
+      ]
+    },
+    {
+      "Route": "js/jspdf/jspdf.plugin.autotable.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg="
         }
       ]
     },

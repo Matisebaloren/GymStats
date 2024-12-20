@@ -5,12 +5,58 @@
 <div class="d-flex text-center">
     <h1 class="mx-auto">Ejercicios Fisicos</h1>
 </div>
+<div class="row">
+    <label for="TipoEjercicioID">Tipo de Ejercicio</label>
+    <select id="TipoEjercicioID" name="TipoEjercicioID" class="form-control">
+        
+        @foreach (var item in ViewBag.TipoEjercicioID)
+        {
+            <option value="@item.Value">@item.Text</option>
+        }
+    </select>
 
+    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-2">
+        <label class="control-label">Mes:</label>
+        <select class="form-control" id="MesEjercicioBuscar">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-2">
+        <label class="control-label">Año:</label>
+        <select class="form-control" id="AnioEjercicioBuscar">
+            <option value="2023">2023</option>
+            <option value="2024" selected>2024</option>
+        </select>
+    </div>
+
+</div>
 <div class="text-center">
     <h1 class="display-4">Bienvenido</h1>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-chart-bar me-1"></i>
+            Tipos de Ejercicios
+        </div>
+        <div class="card-body" style="height: 48vh;">
+            <canvas id="graficoTorta"></canvas>
+        </div>
+    </div>
     <div style="width: 800px;"><canvas id="grafico"></canvas></div>
 </div>
 
 @section Scripts {
     <script src="~/js/graficoInicio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 }

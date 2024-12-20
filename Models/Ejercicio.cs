@@ -10,7 +10,7 @@ public class Ejercicio
     public int TipoEjercicioID { get; set; }
     public int LugarID { get; set; }
     public int EventoID { get; set; }
-    public int DeportistaID { get; set; }
+    public string? UsuarioID { get; set; }
     public DateTime Inicio { get; set; }
     public DateTime Fin { get; set; }
     [NotMapped]
@@ -21,7 +21,6 @@ public class Ejercicio
     public virtual TipoEjercicio TipoEjercicio { get; set; }
     public virtual Lugar Lugar { get; set; }
     public virtual Evento Evento { get; set; }
-    public virtual Deportista Deportista { get; set; }
 
 }
 

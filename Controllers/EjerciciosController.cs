@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using GymStats.Models;
 using System.Globalization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace GymStats.Controllers
 {
@@ -28,7 +29,7 @@ namespace GymStats.Controllers
             return View();
         }
 
-        public JsonResult ListadoEjercicios(int? id)
+        public JsonResult ListadoEjercicios(int? id, string? filtro1 = "", string? filtro2 = "")
         {
             var usuarioID = _userManager.GetUserId(HttpContext.User);
             if (usuarioID == null)
@@ -43,7 +44,7 @@ namespace GymStats.Controllers
             }
 
 
-            var ejercicios = _context.Ejercicios.Where(l => l.DeportistaID == deportista.DeportistaID).Include(e => e.TipoEjercicio).Include(e => e.Evento).Include(e => e.Lugar).ToList();
+            var ejercicios = _context.Ejercicios.Where(l => l.UsuarioID == usuarioID).Include(e => e.TipoEjercicio).Include(e => e.Evento).Include(e => e.Lugar).ToList();
 
             if (id != null)
             {
@@ -79,6 +80,15 @@ namespace GymStats.Controllers
                 CaloriasQuemadas = decimal.Round(e.TipoEjercicio.Met * deportista.Peso * Convert.ToDecimal(e.IntervaloEjercicio.TotalHours) * varGenero, 2)
             })
             .ToList();
+
+            
+            if(filtro2 != ""){
+                ejercicioMostrar = OrdenarEjercicios(ejercicioMostrar, filtro2);
+            }
+            if(filtro1 != ""){
+                ejercicioMostrar = OrdenarEjercicios(ejercicioMostrar, filtro1);
+            }
+
 
             return Json(ejercicioMostrar);
         }
@@ -116,11 +126,11 @@ namespace GymStats.Controllers
             {
                 return Json("Usuario no autenticado.");
             }
-            var deportista = _context.Deportistas.Where(d => d.UsuarioID == usuarioID).FirstOrDefault();
-            if (deportista == null)
-            {
-                return Json("Deportista no autenticado.");
-            }
+            // var deportista = _context.Deportistas.Where(d => d.UsuarioID == usuarioID).FirstOrDefault();
+            // if (deportista == null)
+            // {
+            //     return Json("Deportista no autenticado.");
+            // }
 
             DateTime datetime_inicio;
             DateTime datetime_fin;
@@ -150,7 +160,7 @@ namespace GymStats.Controllers
                         Inicio = datetime_inicio,
                         Fin = datetime_fin,
                         Observacion = observacion,
-                        DeportistaID = deportista.DeportistaID
+                        UsuarioID = usuarioID
                     };
                     _context.Add(ejercicio);
                     _context.SaveChanges();
@@ -159,7 +169,7 @@ namespace GymStats.Controllers
                 else
                 {
                     //EDITAR
-                    var ejercicioEditar = _context.Ejercicios.Where(t => t.EjercicioID == ejercicioID && t.DeportistaID == deportista.DeportistaID).SingleOrDefault();
+                    var ejercicioEditar = _context.Ejercicios.Where(e => e.EjercicioID == ejercicioID && e.UsuarioID == usuarioID).SingleOrDefault();
                     if (ejercicioEditar != null)
                     {
                         ejercicioEditar.TipoEjercicioID = tipoEjercicioID;
@@ -184,6 +194,54 @@ namespace GymStats.Controllers
             return Json(resultado);
         }
 
-        
+        // INFORMES
+
+        public async Task<IActionResult> Informe()
+        {
+            return View();
+        }
+
+
+        // public JsonResult InformeEjercicios(string filtro1 = "", string filtro2 = "")
+        // {
+        //     var usuarioID = _userManager.GetUserId(HttpContext.User);
+        //     if (usuarioID == null)
+        //     {
+        //         return Json("Usuario no autenticado.");
+        //     }
+        //     var deportista = _context.Deportistas.Where(d => d.UsuarioID == usuarioID).FirstOrDefault();
+
+        //     if (deportista == null)
+        //     {
+        //         return Json("Usuario no autenticado.");
+        //     }
+
+        //     var ejercicios = _context.Ejercicios
+        //     .Where(l => l.UsuarioID == usuarioID)
+        //     .Include(e => e.TipoEjercicio)
+        //     .Include(e => e.Evento)
+        //     .Include(e => e.Lugar)
+        //     .ToList();
+
+        //     if (filtro2 != "")
+        //     {
+        //         ejercicios = OrdenarEjercicios(ejercicios, filtro2);
+        //     }
+        //     ejercicios = OrdenarEjercicios(ejercicios, filtro1);
+
+        //     return Json(ejercicios);
+        // }
+
+        private List<VistaEjercicio> OrdenarEjercicios(List<VistaEjercicio> ejercicios, string filtro)
+        {
+            // Ordenamiento dinámico según el filtro
+            return filtro switch
+            {
+                "tipoEjercicio" => ejercicios.OrderBy(e => e.TipoEjercicioNombre).ToList(),
+                "evento" => ejercicios.OrderBy(e => e.EventoNombre).ToList(),
+                "lugar" => ejercicios.OrderBy(e => e.LugarNombre).ToList(),
+                _ => ejercicios.OrderBy(e => e.TipoEjercicioNombre).ToList() // Orden por defecto
+            };
+        }
     }
 }

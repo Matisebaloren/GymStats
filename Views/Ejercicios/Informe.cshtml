@@ -1,0 +1,72 @@
+@{
+    ViewData["Title"] = "Ejercicios";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/informe.css" />
+
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <div class="d-flex align-items-center">
+        <h1 class="me-auto">Informe</h1>
+        <button onclick="Imprimir()">imprimir</button>
+        <label class="control-label" for="primaryFilter">Filtrar por: </label>
+        <select name="primaryFilter" id="primaryFilter" class="form-control w-auto">
+            <option value=""> --- </option>
+            <option value="tipoEjercicio">Tipo de Ejercicio</option>
+            <option value="evento">Evento</option>
+            <option value="lugar">Lugar</option>
+        </select>
+        <label class="control-label" for="secondaryFilter">Filtrar por: </label>
+        <select name="secondaryFilter" id="secondaryFilter" class="form-control w-auto">
+            <option value=""> --- </option>
+            <option value="tipoEjercicio">Tipo de Ejercicio</option>
+            <option value="evento">Evento</option>
+            <option value="lugar">Lugar</option>
+        </select>
+    </div>
+    <div class="informe">
+        <table id="informeTable" class="table">
+            <thead>
+                <tr id="trTable">
+                    <th>Tipo de Ejercicio</th>
+                    <th>Día</th>
+                    <th>Intervalo</th>
+                    <th>Duracion</th>
+                    <th>Calorias Quemadas</th>
+                </tr>
+            </thead>
+            <tbody id="tbody-informe">
+                <tr>
+                    <td rowspan="3" class="vertical-text"><span>Correr</span></td>
+                    <td rowspan="2" class="vertical-text">17/12/24</td>
+                    <td>10AM - 11AM</td>
+                    <td>60 min</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>1PM - 3PM</td>
+                    <td>120 min</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td>18/12/24</td>
+                    <td>1PM - 3PM</td>
+                    <td>120 min</td>
+                    <td>2000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.4/jspdf.plugin.autotable.min.js"></script>
+    <script src="~/js/informe.js"></script>
+}
