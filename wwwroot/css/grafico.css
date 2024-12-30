@@ -1,0 +1,8 @@
+#grafico {
+    max-height: 50vh; /* Limita la altura máxima al 86% de la altura de la ventana */
+    width: 100%; /* Asegura que el ancho sea flexible */
+}
+    /* 
+    .card-body-grafico{
+        max-height: 50vh;
+    } */

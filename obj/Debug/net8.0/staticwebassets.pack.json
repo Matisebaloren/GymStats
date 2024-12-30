@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\GymStats.vcu7xrkwtw.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\formUser.css",
+      "PackagePath": "staticwebassets\\css\\formUser.css"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\grafico.css",
+      "PackagePath": "staticwebassets\\css\\grafico.css"
+    },
+    {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\informe.css",
       "PackagePath": "staticwebassets\\css\\informe.css"
     },
@@ -25,8 +33,44 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\+.svg",
+      "PackagePath": "staticwebassets\\img\\+.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\gym.jpg",
+      "PackagePath": "staticwebassets\\img\\gym.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\gym1.jpg",
+      "PackagePath": "staticwebassets\\img\\gym1.jpg"
+    },
+    {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
       "PackagePath": "staticwebassets\\img\\heart-pulse.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\icono_menu.svg",
+      "PackagePath": "staticwebassets\\img\\icono_menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\logo-gymstats.svg",
+      "PackagePath": "staticwebassets\\img\\logo-gymstats.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\muscleStats.svg",
+      "PackagePath": "staticwebassets\\img\\muscleStats.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\pdfIcon.svg",
+      "PackagePath": "staticwebassets\\img\\pdfIcon.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\person-swimming-solid.svg",
+      "PackagePath": "staticwebassets\\img\\person-swimming-solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\veryIcons.svg",
+      "PackagePath": "staticwebassets\\img\\veryIcons.svg"
     },
     {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\ejercicios.js",
@@ -37,24 +81,16 @@
       "PackagePath": "staticwebassets\\js\\eventos.js"
     },
     {
+      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\formatearDateInput.js",
+      "PackagePath": "staticwebassets\\js\\formatearDateInput.js"
+    },
+    {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\graficoInicio.js",
       "PackagePath": "staticwebassets\\js\\graficoInicio.js"
     },
     {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\informe.js",
       "PackagePath": "staticwebassets\\js\\informe.js"
-    },
-    {
-      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.debug.js",
-      "PackagePath": "staticwebassets\\js\\jspdf\\jspdf.debug.js"
-    },
-    {
-      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.min.js",
-      "PackagePath": "staticwebassets\\js\\jspdf\\jspdf.min.js"
-    },
-    {
-      "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js",
-      "PackagePath": "staticwebassets\\js\\jspdf\\jspdf.plugin.autotable.js"
     },
     {
       "Id": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",

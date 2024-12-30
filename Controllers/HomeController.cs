@@ -9,6 +9,7 @@ using Humanizer;
 
 namespace GymStats.Controllers;
 
+[Authorize]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;

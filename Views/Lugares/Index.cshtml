@@ -25,21 +25,25 @@
 </div>
 
 <!-- Encabezado -->
-<div class="d-flex align-items-center">
-    <h1 class="me-auto">Lugares</h1>
+<div class="d-flex align-items-center encabezado">
+    <h2 class="me-auto">Lugares</h2>
 
-    <button type="button" class="btn btn-danger" onclick="AbrirModal()">
-        Añadir Lugar
+    <button type="button" class="btn btn-custom1 btn-create" onclick="AbrirModal()">
+        <svg width="13" height="13" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M28.9415 18.8665H18.9839V28.8241H10.6058V18.8665H0.648158V10.557H10.6058V0.599367H18.9839V10.557H28.9415V18.8665Z"
+                fill="white" />
+        </svg>
     </button>
 </div>
 
 <!-- Tabla -->
-<table class="table">
+<table class="table table-striped table-custom">
     <thead>
         <tr>
             <th>Nombre</th>
-            <th></th>
-            <th></th>
+            <th colspan="2" class="col-1 text-center">Acciones</th>
+            @* <th class="col-1"></th> *@
         </tr>
     </thead>
     <tbody id="tbody-lugares">

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8oTeJzg0BI0HXQzTaARi1cG0Gzg9nANgmNFWEh1VWC4=",
+  "Hash": "kCD8zHygpqzYth6G8zDw7CE/435LB/EedTNkHIG5GJE=",
   "Source": "GymStats",
   "BasePath": "_content/GymStats",
   "Mode": "Default",
@@ -1319,6 +1319,48 @@
       "OriginalItemSpec": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymStats.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\formUser.css",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "css/formUser#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1mygkp13vn",
+      "Integrity": "OXs7BLTuOSZGl/lT+N0hEi6P57R/s+Sr4lkf7IW3NWc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\formUser.css"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\grafico.css",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "css/grafico#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "la4s8i1xsh",
+      "Integrity": "veSlzJNNZDB4sXyq2SIMZPPKhbd+7iZJ1Y4zGtLYvpw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\grafico.css"
+    },
+    {
       "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\informe.css",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
@@ -1354,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zcuksfsoyq",
-      "Integrity": "TTG+mECuXouYIztJBTWMgG+og22hfxZRlzE1tF1/mBM=",
+      "Fingerprint": "53kdeu2uvt",
+      "Integrity": "8UycMrZxzmJE0fUcMDzZPbvvdWNIVaBGOGLyI1TAVNA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
@@ -1375,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jkkcgvce7d",
-      "Integrity": "Ix/Ua7T9isNEx5Cfed8j0LfB5Gw893L/p23xxt8mGHY=",
+      "Fingerprint": "au0dkzp8vv",
+      "Integrity": "fiq8a8mpEh6dCB+x4z0ARYeCvRSiJIu5jPGmDGjrPM0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1424,6 +1466,69 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\+.svg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/+#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j52m9pot12",
+      "Integrity": "md4/iqz5axXeQ0NGxZU5eRVRdBcIgq5lMk5kHGlVjDw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\+.svg"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\gym.jpg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/gym#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pfhwaky3in",
+      "Integrity": "RRqV3zy/5lgtPTeonCueyoy3dyerL5yHDXIvh/E5L3Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\gym.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\gym1.jpg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/gym1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ld3pb30ep7",
+      "Integrity": "WTQ4L+U19a0rqMgN1mR3L4GJ7Qx+I/b8stj9NCtTd/Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\gym1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
@@ -1445,6 +1550,132 @@
       "OriginalItemSpec": "wwwroot\\img\\heart-pulse.svg"
     },
     {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\icono_menu.svg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/icono_menu#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kl0ljdt46a",
+      "Integrity": "uPJzBTl+qVLJGsjHkqK2xDdoRdqUNaLR7CrIoo9i460=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icono_menu.svg"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\logo-gymstats.svg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/logo-gymstats#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vsagbd7u6t",
+      "Integrity": "r8nOWxcWvxgxJjgBy1MTFK3ALAgm88EbEDCjBAilYOo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo-gymstats.svg"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\muscleStats.svg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/muscleStats#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ruj9u5vr2",
+      "Integrity": "i+yDlpo7JO3s0oFfJ6veVf20bOT066wbhF9bDKH/4IA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\muscleStats.svg"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\pdfIcon.svg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/pdfIcon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "81aovnsmwe",
+      "Integrity": "zMNX2S/V3yxN7pXtS1ND0HgnrKNqRRgvHI1R1z7jOio=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pdfIcon.svg"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\person-swimming-solid.svg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/person-swimming-solid#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ncroj7z18k",
+      "Integrity": "d394XjqklXlqUuUnHNLMKQHA0weBr0sV+7e+BeTdJkI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\person-swimming-solid.svg"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\veryIcons.svg",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "img/veryIcons#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "scg9e5prgm",
+      "Integrity": "DA20BUmQTXMDbTbrYY6rYJAq7758nKP/xIvnXKG/PnE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\veryIcons.svg"
+    },
+    {
       "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\ejercicios.js",
       "SourceId": "GymStats",
       "SourceType": "Discovered",
@@ -1459,8 +1690,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ecva04umw4",
-      "Integrity": "Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc=",
+      "Fingerprint": "y9gyepgy2j",
+      "Integrity": "5thcvO5tlyF/+ArbhSd0SQTx1UrkGTPrpBt6DECFRcI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ejercicios.js"
@@ -1480,11 +1711,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6owta6xn0c",
-      "Integrity": "pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk=",
+      "Fingerprint": "y8an8147jc",
+      "Integrity": "XsAUSZtKnrH7Ah6P9Pgu//nnw6et/F/alCWtbsVFiZ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\eventos.js"
+    },
+    {
+      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\formatearDateInput.js",
+      "SourceId": "GymStats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
+      "BasePath": "_content/GymStats",
+      "RelativePath": "js/formatearDateInput#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4kf9hszj83",
+      "Integrity": "BEh22YsipCFajisr4ELBbLdniNXE/CuYPwmegw62Nm4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\formatearDateInput.js"
     },
     {
       "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\graficoInicio.js",
@@ -1501,8 +1753,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mf86bi3l3z",
-      "Integrity": "MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE=",
+      "Fingerprint": "xunojm7tdv",
+      "Integrity": "yUkSLJxWN81lI0bKFNelPZDXXphismRG9IbFigTMNoo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\graficoInicio.js"
@@ -1522,74 +1774,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f4i6lwxp4w",
-      "Integrity": "P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE=",
+      "Fingerprint": "awrpgpko99",
+      "Integrity": "eq1m7YQANS1Ys2oTum54gFG7MbztKK93M/TnFdh4cmk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\informe.js"
-    },
-    {
-      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.debug.js",
-      "SourceId": "GymStats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
-      "BasePath": "_content/GymStats",
-      "RelativePath": "js/jspdf/jspdf.debug#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "uzivge1svz",
-      "Integrity": "6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jspdf\\jspdf.debug.js"
-    },
-    {
-      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.min.js",
-      "SourceId": "GymStats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
-      "BasePath": "_content/GymStats",
-      "RelativePath": "js/jspdf/jspdf.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "58boku7wdv",
-      "Integrity": "1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jspdf\\jspdf.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js",
-      "SourceId": "GymStats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\",
-      "BasePath": "_content/GymStats",
-      "RelativePath": "js/jspdf/jspdf.plugin.autotable#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0pbb04hv99",
-      "Integrity": "9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js"
     },
     {
       "Identity": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
@@ -1606,8 +1795,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e26md3fpfq",
-      "Integrity": "NhEq41BDsj4fAJqe/KnGUpgMYoc6vTbXr5c8/jXtlAA=",
+      "Fingerprint": "1r8u6tmz6e",
+      "Integrity": "M/4v8P0brEP4BHkWUyWyinVW9yO/2PO7oHCfRGhHpeQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\lugares.js"
@@ -1627,8 +1816,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vbj6js6wc1",
-      "Integrity": "pRX4qG/U0yuNDroiBBot4hfElH/3VT1zulkY8sLmSSw=",
+      "Fingerprint": "dhcv0eej6t",
+      "Integrity": "8ei2XUnA2tQrDbQRebsghtvC5FcUh+KlxVdegPkQ4ZM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\navbar.js"
@@ -1648,8 +1837,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "ewx9a7zfp1",
+      "Integrity": "IjZcr4lcsRyGCaMdtK2ckzOj/g9HloShzAsM/kX+HEY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1690,8 +1879,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vinh7bp7zt",
-      "Integrity": "V1TYUR9Nlq1Zo8Jj4S4PeibcnNewn1knxh1JNITf45A=",
+      "Fingerprint": "nxye2howt2",
+      "Integrity": "pbGW9Gc24vTEcJQgtNtWmmJeDiBkz41bfxBKQwluQLs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\tipoEjercicios.js"
@@ -2896,6 +3085,170 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/formUser.1mygkp13vn.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\formUser.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1001"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OXs7BLTuOSZGl/lT+N0hEi6P57R/s+Sr4lkf7IW3NWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 21:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1mygkp13vn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/formUser.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OXs7BLTuOSZGl/lT+N0hEi6P57R/s+Sr4lkf7IW3NWc="
+        }
+      ]
+    },
+    {
+      "Route": "css/formUser.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\formUser.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1001"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OXs7BLTuOSZGl/lT+N0hEi6P57R/s+Sr4lkf7IW3NWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 21:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OXs7BLTuOSZGl/lT+N0hEi6P57R/s+Sr4lkf7IW3NWc="
+        }
+      ]
+    },
+    {
+      "Route": "css/grafico.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\grafico.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"veSlzJNNZDB4sXyq2SIMZPPKhbd+7iZJ1Y4zGtLYvpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 21:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-veSlzJNNZDB4sXyq2SIMZPPKhbd+7iZJ1Y4zGtLYvpw="
+        }
+      ]
+    },
+    {
+      "Route": "css/grafico.la4s8i1xsh.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\grafico.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"veSlzJNNZDB4sXyq2SIMZPPKhbd+7iZJ1Y4zGtLYvpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 21:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "la4s8i1xsh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/grafico.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-veSlzJNNZDB4sXyq2SIMZPPKhbd+7iZJ1Y4zGtLYvpw="
+        }
+      ]
+    },
+    {
       "Route": "css/informe.css",
       "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\informe.css",
       "Selectors": [],
@@ -2978,6 +3331,51 @@
       ]
     },
     {
+      "Route": "css/navbar.53kdeu2uvt.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8UycMrZxzmJE0fUcMDzZPbvvdWNIVaBGOGLyI1TAVNA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 00:00:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "53kdeu2uvt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/navbar.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8UycMrZxzmJE0fUcMDzZPbvvdWNIVaBGOGLyI1TAVNA="
+        }
+      ]
+    },
+    {
       "Route": "css/navbar.css",
       "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
       "Selectors": [],
@@ -2988,7 +3386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "706"
+          "Value": "2944"
         },
         {
           "Name": "Content-Type",
@@ -2996,11 +3394,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TTG+mECuXouYIztJBTWMgG+og22hfxZRlzE1tF1/mBM=\""
+          "Value": "\"8UycMrZxzmJE0fUcMDzZPbvvdWNIVaBGOGLyI1TAVNA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 12:57:52 GMT"
+          "Value": "Thu, 26 Dec 2024 00:00:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3010,13 +3408,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TTG+mECuXouYIztJBTWMgG+og22hfxZRlzE1tF1/mBM="
+          "Value": "sha256-8UycMrZxzmJE0fUcMDzZPbvvdWNIVaBGOGLyI1TAVNA="
         }
       ]
     },
     {
-      "Route": "css/navbar.zcuksfsoyq.css",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\navbar.css",
+      "Route": "css/site.au0dkzp8vv.css",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3025,7 +3423,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "706"
+          "Value": "5849"
         },
         {
           "Name": "Content-Type",
@@ -3033,11 +3431,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TTG+mECuXouYIztJBTWMgG+og22hfxZRlzE1tF1/mBM=\""
+          "Value": "\"fiq8a8mpEh6dCB+x4z0ARYeCvRSiJIu5jPGmDGjrPM0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 12:57:52 GMT"
+          "Value": "Mon, 30 Dec 2024 01:10:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3047,15 +3445,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zcuksfsoyq"
+          "Value": "au0dkzp8vv"
         },
         {
           "Name": "label",
-          "Value": "css/navbar.css"
+          "Value": "css/site.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TTG+mECuXouYIztJBTWMgG+og22hfxZRlzE1tF1/mBM="
+          "Value": "sha256-fiq8a8mpEh6dCB+x4z0ARYeCvRSiJIu5jPGmDGjrPM0="
         }
       ]
     },
@@ -3070,7 +3468,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "513"
+          "Value": "5849"
         },
         {
           "Name": "Content-Type",
@@ -3078,11 +3476,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ix/Ua7T9isNEx5Cfed8j0LfB5Gw893L/p23xxt8mGHY=\""
+          "Value": "\"fiq8a8mpEh6dCB+x4z0ARYeCvRSiJIu5jPGmDGjrPM0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 12:57:48 GMT"
+          "Value": "Mon, 30 Dec 2024 01:10:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3092,52 +3490,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ix/Ua7T9isNEx5Cfed8j0LfB5Gw893L/p23xxt8mGHY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.jkkcgvce7d.css",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "513"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ix/Ua7T9isNEx5Cfed8j0LfB5Gw893L/p23xxt8mGHY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 12:57:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jkkcgvce7d"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ix/Ua7T9isNEx5Cfed8j0LfB5Gw893L/p23xxt8mGHY="
+          "Value": "sha256-fiq8a8mpEh6dCB+x4z0ARYeCvRSiJIu5jPGmDGjrPM0="
         }
       ]
     },
@@ -5690,6 +6043,252 @@
       ]
     },
     {
+      "Route": "img/+.j52m9pot12.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\+.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"md4/iqz5axXeQ0NGxZU5eRVRdBcIgq5lMk5kHGlVjDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 16:42:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j52m9pot12"
+        },
+        {
+          "Name": "label",
+          "Value": "img/+.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-md4/iqz5axXeQ0NGxZU5eRVRdBcIgq5lMk5kHGlVjDw="
+        }
+      ]
+    },
+    {
+      "Route": "img/+.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\+.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"md4/iqz5axXeQ0NGxZU5eRVRdBcIgq5lMk5kHGlVjDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 16:42:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-md4/iqz5axXeQ0NGxZU5eRVRdBcIgq5lMk5kHGlVjDw="
+        }
+      ]
+    },
+    {
+      "Route": "img/gym.jpg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\gym.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "300787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RRqV3zy/5lgtPTeonCueyoy3dyerL5yHDXIvh/E5L3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 22:25:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RRqV3zy/5lgtPTeonCueyoy3dyerL5yHDXIvh/E5L3Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/gym.pfhwaky3in.jpg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\gym.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "300787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RRqV3zy/5lgtPTeonCueyoy3dyerL5yHDXIvh/E5L3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 22:25:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pfhwaky3in"
+        },
+        {
+          "Name": "label",
+          "Value": "img/gym.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RRqV3zy/5lgtPTeonCueyoy3dyerL5yHDXIvh/E5L3Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/gym1.jpg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\gym1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WTQ4L+U19a0rqMgN1mR3L4GJ7Qx+I/b8stj9NCtTd/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 23:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WTQ4L+U19a0rqMgN1mR3L4GJ7Qx+I/b8stj9NCtTd/Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/gym1.ld3pb30ep7.jpg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\gym1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WTQ4L+U19a0rqMgN1mR3L4GJ7Qx+I/b8stj9NCtTd/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 23:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ld3pb30ep7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/gym1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WTQ4L+U19a0rqMgN1mR3L4GJ7Qx+I/b8stj9NCtTd/Q="
+        }
+      ]
+    },
+    {
       "Route": "img/heart-pulse.g9b7dwrvs4.svg",
       "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\heart-pulse.svg",
       "Selectors": [],
@@ -5772,8 +6371,8 @@
       ]
     },
     {
-      "Route": "js/ejercicios.ecva04umw4.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\ejercicios.js",
+      "Route": "img/icono_menu.kl0ljdt46a.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\icono_menu.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5782,19 +6381,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8023"
+          "Value": "449"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "\"Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc=\""
+          "Value": "\"uPJzBTl+qVLJGsjHkqK2xDdoRdqUNaLR7CrIoo9i460=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 14:30:35 GMT"
+          "Value": "Mon, 23 Dec 2024 15:39:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5804,15 +6403,462 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ecva04umw4"
+          "Value": "kl0ljdt46a"
         },
         {
           "Name": "label",
-          "Value": "js/ejercicios.js"
+          "Value": "img/icono_menu.svg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc="
+          "Value": "sha256-uPJzBTl+qVLJGsjHkqK2xDdoRdqUNaLR7CrIoo9i460="
+        }
+      ]
+    },
+    {
+      "Route": "img/icono_menu.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\icono_menu.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uPJzBTl+qVLJGsjHkqK2xDdoRdqUNaLR7CrIoo9i460=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 15:39:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uPJzBTl+qVLJGsjHkqK2xDdoRdqUNaLR7CrIoo9i460="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo-gymstats.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\logo-gymstats.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r8nOWxcWvxgxJjgBy1MTFK3ALAgm88EbEDCjBAilYOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:44:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r8nOWxcWvxgxJjgBy1MTFK3ALAgm88EbEDCjBAilYOo="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo-gymstats.vsagbd7u6t.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\logo-gymstats.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r8nOWxcWvxgxJjgBy1MTFK3ALAgm88EbEDCjBAilYOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:44:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vsagbd7u6t"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo-gymstats.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r8nOWxcWvxgxJjgBy1MTFK3ALAgm88EbEDCjBAilYOo="
+        }
+      ]
+    },
+    {
+      "Route": "img/muscleStats.9ruj9u5vr2.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\muscleStats.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i+yDlpo7JO3s0oFfJ6veVf20bOT066wbhF9bDKH/4IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 23:03:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ruj9u5vr2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/muscleStats.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i+yDlpo7JO3s0oFfJ6veVf20bOT066wbhF9bDKH/4IA="
+        }
+      ]
+    },
+    {
+      "Route": "img/muscleStats.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\muscleStats.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i+yDlpo7JO3s0oFfJ6veVf20bOT066wbhF9bDKH/4IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 23:03:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i+yDlpo7JO3s0oFfJ6veVf20bOT066wbhF9bDKH/4IA="
+        }
+      ]
+    },
+    {
+      "Route": "img/pdfIcon.81aovnsmwe.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\pdfIcon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zMNX2S/V3yxN7pXtS1ND0HgnrKNqRRgvHI1R1z7jOio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 12:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "81aovnsmwe"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pdfIcon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zMNX2S/V3yxN7pXtS1ND0HgnrKNqRRgvHI1R1z7jOio="
+        }
+      ]
+    },
+    {
+      "Route": "img/pdfIcon.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\pdfIcon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zMNX2S/V3yxN7pXtS1ND0HgnrKNqRRgvHI1R1z7jOio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 12:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zMNX2S/V3yxN7pXtS1ND0HgnrKNqRRgvHI1R1z7jOio="
+        }
+      ]
+    },
+    {
+      "Route": "img/person-swimming-solid.ncroj7z18k.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\person-swimming-solid.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d394XjqklXlqUuUnHNLMKQHA0weBr0sV+7e+BeTdJkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 22:20:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ncroj7z18k"
+        },
+        {
+          "Name": "label",
+          "Value": "img/person-swimming-solid.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d394XjqklXlqUuUnHNLMKQHA0weBr0sV+7e+BeTdJkI="
+        }
+      ]
+    },
+    {
+      "Route": "img/person-swimming-solid.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\person-swimming-solid.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d394XjqklXlqUuUnHNLMKQHA0weBr0sV+7e+BeTdJkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 22:20:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d394XjqklXlqUuUnHNLMKQHA0weBr0sV+7e+BeTdJkI="
+        }
+      ]
+    },
+    {
+      "Route": "img/veryIcons.scg9e5prgm.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\veryIcons.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DA20BUmQTXMDbTbrYY6rYJAq7758nKP/xIvnXKG/PnE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 21:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "scg9e5prgm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/veryIcons.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DA20BUmQTXMDbTbrYY6rYJAq7758nKP/xIvnXKG/PnE="
+        }
+      ]
+    },
+    {
+      "Route": "img/veryIcons.svg",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\img\\veryIcons.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DA20BUmQTXMDbTbrYY6rYJAq7758nKP/xIvnXKG/PnE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 21:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DA20BUmQTXMDbTbrYY6rYJAq7758nKP/xIvnXKG/PnE="
         }
       ]
     },
@@ -5827,7 +6873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8023"
+          "Value": "13318"
         },
         {
           "Name": "Content-Type",
@@ -5835,11 +6881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc=\""
+          "Value": "\"5thcvO5tlyF/+ArbhSd0SQTx1UrkGTPrpBt6DECFRcI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 14:30:35 GMT"
+          "Value": "Mon, 30 Dec 2024 04:28:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5849,13 +6895,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Lq2f+zp1F5heiEbaZVxnytWwzKm36Le4KI+RqEaIvEc="
+          "Value": "sha256-5thcvO5tlyF/+ArbhSd0SQTx1UrkGTPrpBt6DECFRcI="
         }
       ]
     },
     {
-      "Route": "js/eventos.6owta6xn0c.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
+      "Route": "js/ejercicios.y9gyepgy2j.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\ejercicios.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5864,7 +6910,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2921"
+          "Value": "13318"
         },
         {
           "Name": "Content-Type",
@@ -5872,11 +6918,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk=\""
+          "Value": "\"5thcvO5tlyF/+ArbhSd0SQTx1UrkGTPrpBt6DECFRcI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 17:20:49 GMT"
+          "Value": "Mon, 30 Dec 2024 04:28:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5886,15 +6932,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6owta6xn0c"
+          "Value": "y9gyepgy2j"
         },
         {
           "Name": "label",
-          "Value": "js/eventos.js"
+          "Value": "js/ejercicios.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk="
+          "Value": "sha256-5thcvO5tlyF/+ArbhSd0SQTx1UrkGTPrpBt6DECFRcI="
         }
       ]
     },
@@ -5909,7 +6955,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2921"
+          "Value": "4935"
         },
         {
           "Name": "Content-Type",
@@ -5917,11 +6963,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk=\""
+          "Value": "\"XsAUSZtKnrH7Ah6P9Pgu//nnw6et/F/alCWtbsVFiZ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 17:20:49 GMT"
+          "Value": "Fri, 27 Dec 2024 19:04:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5931,7 +6977,134 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pjxOLeME269tKxw/1jV2Yty5hCGeAlajLiedPt1sMMk="
+          "Value": "sha256-XsAUSZtKnrH7Ah6P9Pgu//nnw6et/F/alCWtbsVFiZ0="
+        }
+      ]
+    },
+    {
+      "Route": "js/eventos.y8an8147jc.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\eventos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XsAUSZtKnrH7Ah6P9Pgu//nnw6et/F/alCWtbsVFiZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 19:04:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y8an8147jc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/eventos.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XsAUSZtKnrH7Ah6P9Pgu//nnw6et/F/alCWtbsVFiZ0="
+        }
+      ]
+    },
+    {
+      "Route": "js/formatearDateInput.4kf9hszj83.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\formatearDateInput.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BEh22YsipCFajisr4ELBbLdniNXE/CuYPwmegw62Nm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 13:53:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kf9hszj83"
+        },
+        {
+          "Name": "label",
+          "Value": "js/formatearDateInput.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BEh22YsipCFajisr4ELBbLdniNXE/CuYPwmegw62Nm4="
+        }
+      ]
+    },
+    {
+      "Route": "js/formatearDateInput.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\formatearDateInput.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BEh22YsipCFajisr4ELBbLdniNXE/CuYPwmegw62Nm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 13:53:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BEh22YsipCFajisr4ELBbLdniNXE/CuYPwmegw62Nm4="
         }
       ]
     },
@@ -5946,7 +7119,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6737"
+          "Value": "8243"
         },
         {
           "Name": "Content-Type",
@@ -5954,11 +7127,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE=\""
+          "Value": "\"yUkSLJxWN81lI0bKFNelPZDXXphismRG9IbFigTMNoo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 17:28:10 GMT"
+          "Value": "Fri, 27 Dec 2024 17:37:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5968,12 +7141,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE="
+          "Value": "sha256-yUkSLJxWN81lI0bKFNelPZDXXphismRG9IbFigTMNoo="
         }
       ]
     },
     {
-      "Route": "js/graficoInicio.mf86bi3l3z.js",
+      "Route": "js/graficoInicio.xunojm7tdv.js",
       "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\graficoInicio.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5983,7 +7156,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6737"
+          "Value": "8243"
         },
         {
           "Name": "Content-Type",
@@ -5991,11 +7164,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE=\""
+          "Value": "\"yUkSLJxWN81lI0bKFNelPZDXXphismRG9IbFigTMNoo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 17:28:10 GMT"
+          "Value": "Fri, 27 Dec 2024 17:37:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6005,7 +7178,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mf86bi3l3z"
+          "Value": "xunojm7tdv"
         },
         {
           "Name": "label",
@@ -6013,12 +7186,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MlM1PPaCBlJ3s/0oZXxdG/4/0f0a8eY0h3fA7nJXKcE="
+          "Value": "sha256-yUkSLJxWN81lI0bKFNelPZDXXphismRG9IbFigTMNoo="
         }
       ]
     },
     {
-      "Route": "js/informe.f4i6lwxp4w.js",
+      "Route": "js/informe.awrpgpko99.js",
       "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\informe.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6028,7 +7201,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8445"
+          "Value": "10122"
         },
         {
           "Name": "Content-Type",
@@ -6036,11 +7209,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE=\""
+          "Value": "\"eq1m7YQANS1Ys2oTum54gFG7MbztKK93M/TnFdh4cmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 05:41:08 GMT"
+          "Value": "Mon, 30 Dec 2024 04:09:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6050,7 +7223,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f4i6lwxp4w"
+          "Value": "awrpgpko99"
         },
         {
           "Name": "label",
@@ -6058,7 +7231,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE="
+          "Value": "sha256-eq1m7YQANS1Ys2oTum54gFG7MbztKK93M/TnFdh4cmk="
         }
       ]
     },
@@ -6073,7 +7246,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8445"
+          "Value": "10122"
         },
         {
           "Name": "Content-Type",
@@ -6081,11 +7254,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE=\""
+          "Value": "\"eq1m7YQANS1Ys2oTum54gFG7MbztKK93M/TnFdh4cmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Dec 2024 05:41:08 GMT"
+          "Value": "Mon, 30 Dec 2024 04:09:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6095,258 +7268,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-P6b8U0mN/NI1vlxwq1eMZX0e3H0u355lEgpcLvbfpBE="
+          "Value": "sha256-eq1m7YQANS1Ys2oTum54gFG7MbztKK93M/TnFdh4cmk="
         }
       ]
     },
     {
-      "Route": "js/jspdf/jspdf.debug.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.debug.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "790136"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0="
-        }
-      ]
-    },
-    {
-      "Route": "js/jspdf/jspdf.debug.uzivge1svz.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.debug.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "790136"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uzivge1svz"
-        },
-        {
-          "Name": "label",
-          "Value": "js/jspdf/jspdf.debug.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6okuMdwcIC57eIH1bMBSxKWP3RbqmmkpaXZJieaMW+0="
-        }
-      ]
-    },
-    {
-      "Route": "js/jspdf/jspdf.min.58boku7wdv.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "275961"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "58boku7wdv"
-        },
-        {
-          "Name": "label",
-          "Value": "js/jspdf/jspdf.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc="
-        }
-      ]
-    },
-    {
-      "Route": "js/jspdf/jspdf.min.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "275961"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1Yo7C+z21/9Rieq5ErVlZoTXOAO2fOKO9poCgx8HSOc="
-        }
-      ]
-    },
-    {
-      "Route": "js/jspdf/jspdf.plugin.autotable.0pbb04hv99.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91850"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0pbb04hv99"
-        },
-        {
-          "Name": "label",
-          "Value": "js/jspdf/jspdf.plugin.autotable.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg="
-        }
-      ]
-    },
-    {
-      "Route": "js/jspdf/jspdf.plugin.autotable.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\jspdf\\jspdf.plugin.autotable.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91850"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:39:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9G+pkpu/wnwTPSeXKE55WeuzKhzvhif9RhwPwLHAjRg="
-        }
-      ]
-    },
-    {
-      "Route": "js/lugares.e26md3fpfq.js",
+      "Route": "js/lugares.1r8u6tmz6e.js",
       "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\lugares.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6356,7 +7283,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3988"
+          "Value": "5118"
         },
         {
           "Name": "Content-Type",
@@ -6364,11 +7291,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NhEq41BDsj4fAJqe/KnGUpgMYoc6vTbXr5c8/jXtlAA=\""
+          "Value": "\"M/4v8P0brEP4BHkWUyWyinVW9yO/2PO7oHCfRGhHpeQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 15:14:46 GMT"
+          "Value": "Fri, 27 Dec 2024 20:33:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6378,7 +7305,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e26md3fpfq"
+          "Value": "1r8u6tmz6e"
         },
         {
           "Name": "label",
@@ -6386,7 +7313,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NhEq41BDsj4fAJqe/KnGUpgMYoc6vTbXr5c8/jXtlAA="
+          "Value": "sha256-M/4v8P0brEP4BHkWUyWyinVW9yO/2PO7oHCfRGhHpeQ="
         }
       ]
     },
@@ -6401,7 +7328,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3988"
+          "Value": "5118"
         },
         {
           "Name": "Content-Type",
@@ -6409,11 +7336,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NhEq41BDsj4fAJqe/KnGUpgMYoc6vTbXr5c8/jXtlAA=\""
+          "Value": "\"M/4v8P0brEP4BHkWUyWyinVW9yO/2PO7oHCfRGhHpeQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 15:14:46 GMT"
+          "Value": "Fri, 27 Dec 2024 20:33:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6423,7 +7350,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NhEq41BDsj4fAJqe/KnGUpgMYoc6vTbXr5c8/jXtlAA="
+          "Value": "sha256-M/4v8P0brEP4BHkWUyWyinVW9yO/2PO7oHCfRGhHpeQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/navbar.dhcv0eej6t.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\navbar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ei2XUnA2tQrDbQRebsghtvC5FcUh+KlxVdegPkQ4ZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 22:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dhcv0eej6t"
+        },
+        {
+          "Name": "label",
+          "Value": "js/navbar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ei2XUnA2tQrDbQRebsghtvC5FcUh+KlxVdegPkQ4ZM="
         }
       ]
     },
@@ -6438,7 +7410,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "433"
+          "Value": "615"
         },
         {
           "Name": "Content-Type",
@@ -6446,11 +7418,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pRX4qG/U0yuNDroiBBot4hfElH/3VT1zulkY8sLmSSw=\""
+          "Value": "\"8ei2XUnA2tQrDbQRebsghtvC5FcUh+KlxVdegPkQ4ZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 12:56:56 GMT"
+          "Value": "Sat, 21 Dec 2024 22:01:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6460,13 +7432,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pRX4qG/U0yuNDroiBBot4hfElH/3VT1zulkY8sLmSSw="
+          "Value": "sha256-8ei2XUnA2tQrDbQRebsghtvC5FcUh+KlxVdegPkQ4ZM="
         }
       ]
     },
     {
-      "Route": "js/navbar.vbj6js6wc1.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\navbar.js",
+      "Route": "js/site.ewx9a7zfp1.js",
+      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6475,7 +7447,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "433"
+          "Value": "455"
         },
         {
           "Name": "Content-Type",
@@ -6483,11 +7455,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pRX4qG/U0yuNDroiBBot4hfElH/3VT1zulkY8sLmSSw=\""
+          "Value": "\"IjZcr4lcsRyGCaMdtK2ckzOj/g9HloShzAsM/kX+HEY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 12:56:56 GMT"
+          "Value": "Fri, 27 Dec 2024 17:37:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6497,15 +7469,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vbj6js6wc1"
+          "Value": "ewx9a7zfp1"
         },
         {
           "Name": "label",
-          "Value": "js/navbar.js"
+          "Value": "js/site.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pRX4qG/U0yuNDroiBBot4hfElH/3VT1zulkY8sLmSSw="
+          "Value": "sha256-IjZcr4lcsRyGCaMdtK2ckzOj/g9HloShzAsM/kX+HEY="
         }
       ]
     },
@@ -6520,7 +7492,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "455"
         },
         {
           "Name": "Content-Type",
@@ -6528,11 +7500,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"IjZcr4lcsRyGCaMdtK2ckzOj/g9HloShzAsM/kX+HEY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 21:03:09 GMT"
+          "Value": "Fri, 27 Dec 2024 17:37:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6542,52 +7514,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 21:03:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-IjZcr4lcsRyGCaMdtK2ckzOj/g9HloShzAsM/kX+HEY="
         }
       ]
     },
@@ -6684,7 +7611,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3541"
+          "Value": "5475"
         },
         {
           "Name": "Content-Type",
@@ -6692,11 +7619,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"V1TYUR9Nlq1Zo8Jj4S4PeibcnNewn1knxh1JNITf45A=\""
+          "Value": "\"pbGW9Gc24vTEcJQgtNtWmmJeDiBkz41bfxBKQwluQLs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 19:01:42 GMT"
+          "Value": "Fri, 27 Dec 2024 20:50:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6706,12 +7633,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-V1TYUR9Nlq1Zo8Jj4S4PeibcnNewn1knxh1JNITf45A="
+          "Value": "sha256-pbGW9Gc24vTEcJQgtNtWmmJeDiBkz41bfxBKQwluQLs="
         }
       ]
     },
     {
-      "Route": "js/tipoEjercicios.vinh7bp7zt.js",
+      "Route": "js/tipoEjercicios.nxye2howt2.js",
       "AssetFile": "C:\\Users\\MSL2\\Desktop\\.net\\GymStats\\wwwroot\\js\\tipoEjercicios.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6721,7 +7648,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3541"
+          "Value": "5475"
         },
         {
           "Name": "Content-Type",
@@ -6729,11 +7656,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"V1TYUR9Nlq1Zo8Jj4S4PeibcnNewn1knxh1JNITf45A=\""
+          "Value": "\"pbGW9Gc24vTEcJQgtNtWmmJeDiBkz41bfxBKQwluQLs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Dec 2024 19:01:42 GMT"
+          "Value": "Fri, 27 Dec 2024 20:50:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6743,7 +7670,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vinh7bp7zt"
+          "Value": "nxye2howt2"
         },
         {
           "Name": "label",
@@ -6751,7 +7678,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-V1TYUR9Nlq1Zo8Jj4S4PeibcnNewn1knxh1JNITf45A="
+          "Value": "sha256-pbGW9Gc24vTEcJQgtNtWmmJeDiBkz41bfxBKQwluQLs="
         }
       ]
     },

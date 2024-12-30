@@ -1,62 +1,81 @@
 ﻿@{
     ViewData["Title"] = "Inicio";
 }
-<!-- Encabezado -->
-<div class="d-flex text-center">
-    <h1 class="mx-auto">Ejercicios Fisicos</h1>
-</div>
-<div class="row">
-    <label for="TipoEjercicioID">Tipo de Ejercicio</label>
-    <select id="TipoEjercicioID" name="TipoEjercicioID" class="form-control">
-        
-        @foreach (var item in ViewBag.TipoEjercicioID)
-        {
-            <option value="@item.Value">@item.Text</option>
-        }
-    </select>
 
-    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-2">
-        <label class="control-label">Mes:</label>
-        <select class="form-control" id="MesEjercicioBuscar">
-            <option value="1">Enero</option>
-            <option value="2">Febrero</option>
-            <option value="3">Marzo</option>
-            <option value="4">Abril</option>
-            <option value="5">Mayo</option>
-            <option value="6">Junio</option>
-            <option value="7">Julio</option>
-            <option value="8">Agosto</option>
-            <option value="9">Septiembre</option>
-            <option value="10">Octubre</option>
-            <option value="11">Noviembre</option>
-            <option value="12">Diciembre</option>
-        </select>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-2">
-        <label class="control-label">Año:</label>
-        <select class="form-control" id="AnioEjercicioBuscar">
-            <option value="2023">2023</option>
-            <option value="2024" selected>2024</option>
-        </select>
+<head>
+    <link rel="stylesheet" href="~/css/grafico.css" asp-append-version="true" />
+</head>
+
+<div class="d-flex align-items-center encabezado mb-3">
+    <h2 class="me-auto">Panel general</h2>
+</div>
+
+
+<div class="row w-100 m-0">
+    <div class="col-12 col-md-4 col-lg-3">
+        <div class="input-group col-12 mb-2">
+            @* <label for="TipoEjercicioID">Tipo de Ejercicio</label> *@
+            <label class="input-group-text" for="TipoEjercicioID">Tipo de ejercicio</label>
+            <select id="TipoEjercicioID" name="TipoEjercicioID" class="form-select">
+                @foreach (var item in ViewBag.TipoEjercicioID)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+
+        <div class="input-group col-12">
+            @* <label class="control-label">Mes:</label> *@
+            <label class="input-group-text" for="MesEjercicioBuscar">Mes/Año</label>
+            <select class="form-select" name="MesEjercicioBuscar" id="MesEjercicioBuscar">
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            <select class="form-select" id="AnioEjercicioBuscar">
+                <option value="2023">2023</option>
+                <option value="2024" selected>2024</option>
+            </select>
+        </div>
+
+        <div class="text-center col-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="bi bi-pie-chart-fill"></i>
+                    Tipos de Ejercicios
+                </div>
+                <div class="card-body" style="height: 48vh;">
+                    <canvas class="mx-auto" id="graficoTorta"></canvas>
+                </div>
+            </div>
+        </div>
     </div>
 
-</div>
-<div class="text-center">
-    <h1 class="display-4">Bienvenido</h1>
-    <div class="card mb-4">
+    <div class="col-12 col-md-8 col-lg-9 card p-0">
         <div class="card-header">
-            <i class="fas fa-chart-bar me-1"></i>
+            <i class="bi bi-graph-up me-1"></i>
             Tipos de Ejercicios
         </div>
-        <div class="card-body" style="height: 48vh;">
-            <canvas id="graficoTorta"></canvas>
+        <div class="card-body card-body-grafico" style="width: auto">
+            <canvas id="grafico"></canvas>
         </div>
     </div>
-    <div style="width: 800px;"><canvas id="grafico"></canvas></div>
+
 </div>
+
 
 @section Scripts {
     <script src="~/js/graficoInicio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 }

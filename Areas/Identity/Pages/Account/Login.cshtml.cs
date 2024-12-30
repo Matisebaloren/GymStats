@@ -15,17 +15,25 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
+
+
 namespace GymStats.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly RoleManager<IdentityRole> _rolManager;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger, ApplicationDbContext context, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> rolManager)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _context = context;
+            _userManager = userManager;
+            _rolManager = rolManager;
         }
 
         /// <summary>
@@ -80,12 +88,13 @@ namespace GymStats.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [Display(Name = "Remember me?")]
+            [Display(Name = "Recordarme")]
             public bool RememberMe { get; set; }
         }
 
         public async Task OnGetAsync(string returnUrl = null)
         {
+            await InicializarPermisosUsuario();
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);
@@ -101,8 +110,40 @@ namespace GymStats.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
         }
 
+        public async Task<JsonResult> InicializarPermisosUsuario()
+        {
+            //INICIALIZAMOS ROLES
+            if (!await _rolManager.RoleExistsAsync("ADMIN"))
+            {
+                await _rolManager.CreateAsync(new IdentityRole("ADMIN"));
+            }
+
+            if (!await _rolManager.RoleExistsAsync("DEPORTISTA"))
+            {
+                await _rolManager.CreateAsync(new IdentityRole("DEPORTISTA"));
+            }
+
+            //CREAR ADMIN
+            bool creado = false;
+            var usuario = _context.Users.Where(u => u.Email == "admin@sistema.com").SingleOrDefault();
+            if (usuario == null)
+            {
+                var user = new IdentityUser { UserName = "admin@sistema.com", Email = "admin@sistema.com" };
+                var result = await _userManager.CreateAsync(user, "password123");
+
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(user, "ADMIN");
+                    creado = true;
+                }
+            }
+            return new JsonResult(creado);
+        }
+
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
+            
+
             returnUrl ??= Url.Content("~/");
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -128,7 +169,7 @@ namespace GymStats.Areas.Identity.Pages.Account
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "Credenciales inválidas.");
                     return Page();
                 }
             }

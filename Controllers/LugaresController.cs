@@ -9,9 +9,11 @@ using GymStats.Models;
 using System.Globalization;
 using Microsoft.AspNetCore.Identity;
 using GymStats.Migrations;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
+using Microsoft.AspNetCore.Authorization;
 
-namespace GymStats.Controllers
-{
+namespace GymStats.Controllers;
+[Authorize]
     public class LugaresController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -39,13 +41,34 @@ namespace GymStats.Controllers
             }
 
             var Lugares = _context.Lugares.Where(l => l.UsuarioID == usuarioID).ToList();
-            
+
             if (id != null)
             {
                 Lugares = Lugares.Where(t => t.LugarID == id).ToList();
             }
 
             return Json(Lugares);
+        }
+
+        public JsonResult Eliminar(int? id)
+        {
+            var eliminado = false;
+            var usuarioID = _userManager.GetUserId(HttpContext.User);
+
+            if (usuarioID == null)
+            {
+                return Json("Usuario no autenticado.");
+            }
+
+            var lugar = _context.Lugares.Where(l => l.LugarID == id && l.UsuarioID == usuarioID && l.Ejercicios.Count() == 0).Include(e => e.Ejercicios).FirstOrDefault();
+
+            if (lugar != null)
+            {
+                _context.Remove(lugar);
+                _context.SaveChanges();
+                eliminado = true;
+            }
+            return Json(eliminado);
         }
 
         public JsonResult Guardar(int lugarID, string nombre)
@@ -64,7 +87,7 @@ namespace GymStats.Controllers
 
                 if (lugarID == 0)
                 {
-                    var existeLugar = _context.Lugares.Where(t => t.Nombre == nombre && t.UsuarioID == usuarioID && t.LugarID != t.LugarID).Count();
+                    var existeLugar = _context.Lugares.Where(t => t.Nombre == nombre && t.UsuarioID == usuarioID).Count();
                     if (existeLugar == 0)
                     {
                         var lugar = new Lugar
@@ -86,8 +109,8 @@ namespace GymStats.Controllers
                     var lugarEditar = _context.Lugares.Where(t => t.LugarID == lugarID && t.UsuarioID == usuarioID).SingleOrDefault();
                     if (lugarEditar != null)
                     {
-                        //BUSCAMOS MISMO NOMBRE Y QUE TENGA MISMO USUARIO, YA QUE PERMITIMOS QUE DISTINTOS USUARIOS TENGAN EL MISMO LUGAR
-                        var existeLugar = _context.Lugares.Where(t => t.Nombre == nombre && t.UsuarioID != usuarioID).Count();
+                        //MISMO NOMBRE Y QUE TENGA MISMO USUARIO, YA QUE PERMITIMOS QUE DISTINTOS USUARIOS TENGAN EL MISMO LUGAR
+                        var existeLugar = _context.Lugares.Where(t => t.Nombre == nombre && t.UsuarioID == usuarioID).Count();
                         if (existeLugar == 0)
                         {
                             //QUIERE DECIR QUE EL ELEMENTO EXISTE Y ES CORRECTO ENTONCES CONTINUAMOS CON EL EDITAR
@@ -113,4 +136,3 @@ namespace GymStats.Controllers
             return Json(resultado);
         }
     }
-}

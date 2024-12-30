@@ -49,7 +49,7 @@ namespace GymStats.Migrations
 
                     b.HasKey("DeportistaID");
 
-                    b.ToTable("Deportistas");
+                    b.ToTable("Deportistas", (string)null);
                 });
 
             modelBuilder.Entity("GymStats.Models.Ejercicio", b =>
@@ -95,7 +95,7 @@ namespace GymStats.Migrations
 
                     b.HasIndex("TipoEjercicioID");
 
-                    b.ToTable("Ejercicios");
+                    b.ToTable("Ejercicios", (string)null);
                 });
 
             modelBuilder.Entity("GymStats.Models.Evento", b =>
@@ -111,7 +111,7 @@ namespace GymStats.Migrations
 
                     b.HasKey("EventoID");
 
-                    b.ToTable("Eventos");
+                    b.ToTable("Eventos", (string)null);
                 });
 
             modelBuilder.Entity("GymStats.Models.Lugar", b =>
@@ -130,7 +130,7 @@ namespace GymStats.Migrations
 
                     b.HasKey("LugarID");
 
-                    b.ToTable("Lugares");
+                    b.ToTable("Lugares", (string)null);
                 });
 
             modelBuilder.Entity("GymStats.Models.TipoEjercicio", b =>
@@ -149,7 +149,7 @@ namespace GymStats.Migrations
 
                     b.HasKey("TipoEjercicioID");
 
-                    b.ToTable("TiposEjercicios");
+                    b.ToTable("TiposEjercicios", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

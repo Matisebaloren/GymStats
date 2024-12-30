@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GymStats.Models;
 using System.Globalization;
+using Microsoft.AspNetCore.Authorization;
 
-namespace GymStats.Controllers
-{
+namespace GymStats.Controllers;
+    [Authorize]
     public class TiposEjerciciosController : Controller
     {
+
         private readonly ApplicationDbContext _context;
 
         public TiposEjerciciosController(ApplicationDbContext context)
@@ -101,5 +103,19 @@ namespace GymStats.Controllers
 
             return Json(resultado);
         }
+
+        public JsonResult Eliminar(int? id)
+        {
+            var eliminado = false;
+
+            var tipo = _context.TiposEjercicios.Where(l => l.TipoEjercicioID == id && l.Ejercicios.Count() == 0).Include(e => e.Ejercicios).FirstOrDefault();
+
+            if (tipo != null)
+            {
+                _context.Remove(tipo);
+                _context.SaveChanges();
+                eliminado = true;
+            }
+            return Json(eliminado);
+        }
     }
-}

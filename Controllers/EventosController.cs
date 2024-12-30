@@ -7,9 +7,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GymStats.Models;
 using System.Globalization;
+using Microsoft.AspNetCore.Authorization;
 
-namespace GymStats.Controllers
-{
+namespace GymStats.Controllers;
+[Authorize]
     public class EventosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -92,5 +93,19 @@ namespace GymStats.Controllers
 
             return Json(resultado);
         }
+
+        public JsonResult Eliminar(int? id)
+        {
+            var eliminado = false;
+
+            var evento = _context.Eventos.Where(l => l.EventoID == id && l.Ejercicios.Count() == 0).Include(e => e.Ejercicios).FirstOrDefault();
+
+            if (evento != null)
+            {
+                _context.Remove(evento);
+                _context.SaveChanges();
+                eliminado = true;
+            }
+            return Json(eliminado);
+        }
     }
-}

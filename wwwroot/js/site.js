@@ -1,4 +1,12 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿window.onload = ocultarDiv();
 
-// Write your JavaScript code.
+function ocultarDiv() {
+    setTimeout(function() {
+      const div = document.getElementById('load-content');
+      div.style.transition = 'opacity 1s';  // Añadimos una transición para que se desvanezca suavemente
+      div.style.opacity = '0';  // Cambiamos la opacidad a 0 (invisible)
+      setTimeout(function (){
+        div.style.display = "none";
+      },700);
+    }, 1000);  // Espera 1 segundos
+  }

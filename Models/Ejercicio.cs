@@ -27,23 +27,23 @@ public class Ejercicio
 public enum EstadoEmocional
 {
     Feliz = 1,
-    Triste,
-    Enojado,
-    Ansioso,
-    Estresado,
+    Optimista,
+    Satisfecho,
+    Motivado,
     Relajado,
+    Triste,
+    Pesimista,
+    Cansado,
+    Desanimado,
     Aburrido,
     Emocionado,
     Agobiado,
     Confundido,
-    Optimista,
-    Pesimista,
-    Motivado,
-    Cansado,
     Eufórico,
     Agitado,
-    Satisfecho,
-    Desanimado
+    Ansioso,
+    Estresado,
+    Enojado
 }
 
 public class VistaEjercicio
